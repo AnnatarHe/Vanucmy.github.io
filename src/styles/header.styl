@@ -1,0 +1,29 @@
+@import './utils'
+.header
+        background-color #222
+        color white
+        text-align center
+        padding 1.5em
+        border-top-left-radius 1rem
+        border-top-right-radius 1rem
+    nav
+        background-color #444
+        color white
+        text-align center
+        padding .8em
+        .nav__link
+            color #fff
+            padding .8rem 1.5rem
+            &:hover
+                text-decoration underline
+        i.fa
+            margin-right .5rem
+
+.nav__list
+    flex-design()
+    margin 0
+    flex-center()
+    flex-wrap wrap
+    li
+        display flex
+        flex-center()

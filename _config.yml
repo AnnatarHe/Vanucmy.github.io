@@ -1,0 +1,23 @@
+name: Vanucmy's Blog
+author: AnnatarHe
+url: https://Vanucmy.github.io
+cdn: http://cdn.annatarhe.com/vanu
+email: iamhele1994@gmail.com
+uri: https://github.com/Vanucmy
+
+github: Vanucmy
+weibo: 5662081107
+
+paginate: 12
+paginate_path: "/pages/:num"
+exclude: ['node_modules', '_site']
+host: 0.0.0.0
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jemoji
+defaults:
+  -
+    values:
+      layout: "post"

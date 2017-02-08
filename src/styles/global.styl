@@ -1,0 +1,36 @@
+@import './variable'
+
+body
+    background-color #dda
+    font-family $font1
+    @media (max-width: 768px)
+        margin 0
+.main
+    border-radius 1rem
+    box-shadow 0 .3rem 1rem 0.3rem #9E9E9E
+    @media (min-width: $mdScreen)
+        width $mdScreen
+        margin 30px auto
+    
+    @media (max-width: $mdScreen)
+        width 100%
+        margin 1px auto
+a
+    text-decoration none
+
+blockquote
+  padding 10px 20px
+  margin 0 0 20px
+  font-size 17.5px
+  border-left 5px solid #eee
+  font-style italic
+
+p
+    line-height 2em
+
+.pagination
+    text-align center
+    a
+        color #4caf50
+        &:visited
+            color #4caf50
